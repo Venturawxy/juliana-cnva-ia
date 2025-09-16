@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale - Biografia</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <!-- coloque isso no lugar do <aside> antigo -->
+    <aside class="sidebar">
+        <h2>
+        <!-- botão com classe específica dentro do h2 -->
+        <button class="home-btn" onclick="voltarHome()">Categorias</button>
+         </h2>
+        <ul>
+        <li><button onclick="filtrar('comum')">Comum</button></li>
+        <li><button onclick="filtrar('raro')">Raro</button></li>
+        <li><button onclick="filtrar('epico')">Épico</button></li>
+        <li><button onclick="filtrar('lendaria')">Lendária</button></li>
+        <li><button onclick="filtrar('campeao')">Campeão</button></li>
+     </ul>
+    </aside>
+
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1>Biografia dos Personagens</h1>
+            <div class="cards">
+                <div class="card comum">
+                    <img src="./img/cavaleiro.png" alt="Personagem Comum">
+                    <h3>Cavaleiro</h3>
+                    <p>Um dos personagens mais clássicos do jogo, representa a tropa corpo a corpo básica. É barato, resistente e usado como tanque para proteger tropas mais frágeis.
+
+Custo: 3 de elixir
+
+Função: tanque barato
+
+Curiosidade: já foi essencial em decks defensivos.</p>
+                </div>
+                <div class="card raro">
+                    <img src="./img/megaservo.png" alt="Personagem Raro">
+                    <h3>Mega Servo</h3>
+                    <p>Tropa voadora com bom dano e custo baixo. Excelente para defesa contra tanques e tropas médias.
+
+Custo: 3 de elixir
+
+Função: suporte aéreo
+
+Curiosidade: já dominou decks de Golem e Lava Hound.</p>
+                </div>
+                <div class="card epico">
+                    <img src="./img/principe.png" alt="Personagem Épico">
+                    <h3>Príncipe</h3>
+                    <p>Descrição: Conhecido pela carga devastadora, que causa dano em dobro ao correr. Se não for parado, pode destruir uma torre rapidamente.
+
+Custo: 5 de elixir
+
+Função: atacante de alto impacto
+
+Curiosidade: está presente desde o lançamento do jogo.</p>
+                </div>
+                <div class="card lendaria">
+                    <img src="./img/mago-de-gelo.png" alt="Personagem Lendário">
+                    <h3>Mago de Gelo</h3>
+                    <p>Ataca em área com feitiços de gelo que reduzem a velocidade dos inimigos. É excelente para defesa e controle de ritmo.
+
+Custo: 3 de elixir
+
+Função: suporte defensivo
+
+Curiosidade: foi a primeira carta lendária lançada.</p>
+                </div>
+                <div class="card campeao">
+                    <img src="./img/rei-esqueleto.png" alt="Personagem Campeão">
+                    <h3>Rei Esqueleto</h3>
+                    <p>Comanda hordas de esqueletos e é um tanque sombrio no campo de batalha. Sua habilidade gera pressão constante.
+
+Custo: 4 de elixir
+
+Função: tanque e invocador de esqueletos
+
+Curiosidade: é o primeiro campeão lançado no jogo.</p>
+                </div>
+                <div class="card comum">
+                    <img src="./img/arqueira.png" alt="Arqueiras">
+                    <h3>Arqueiras</h3>
+                    <p>Duas combatentes de longo alcance que atacam tanto aéreo quanto terrestre. São versáteis, baratas e aparecem em diversos decks.
+
+Custo: 3 de elixir
+
+Função: suporte de longo alcance
+
+Curiosidade: eram carta inicial para todos os jogadores.</p>
+                </div>
+                <div class="card raro">
+                    <img src="./img/fornalha.png" alt="Fornalha">
+                    <h3>Fornalha</h3>
+                    <p>Construção que gera Espíritos de Fogo periodicamente, pressionando o adversário e defendendo bem contra hordas.
+
+Custo: 4 de elixir
+
+Função: suporte e controle de lane
+
+Curiosidade: sua taxa de geração já sofreu vários ajustes.</p>
+                </div>
+                <div class="card epico">
+                    <img src="./img/bebe-dragão.png" alt="Bebê Dragão">
+                    <h3>Bebê Dragão</h3>
+                    <p>Dragão voador que cospe fogo em área. Muito usado como suporte em decks de Golem e Lava Hound.
+
+Custo: 4 de elixir
+
+Função: suporte aéreo com dano em área
+
+Curiosidade: uma das cartas mais consistentes do jogo.</p>
+                </div>
+                <div class="card lendaria">
+                    <img src="./img/mineiro.png" alt="Mineiro">
+                    <h3>Mineiro</h3>
+                    <p>Pode ser colocado em qualquer lugar da arena, excelente para atacar coletores ou causar dano constante (“chip damage”).
+
+Custo: 3 de elixir
+
+Função: dano estratégico em pontos específicos
+
+Curiosidade: mudou totalmente a forma de atacar no jogo.</p>
+                </div>
+                <div class="card campeao">
+                    <img src="./img/rainha-arqueira.png" alt="Rainha Arqueira">
+                    <h3>Rainha Arqueira</h3>
+                    <p>Atiradora de longo alcance com habilidade que a deixa invisível e aumenta sua cadência de disparos.
+
+Custo: 5 de elixir
+
+Função: campeã ofensiva de longo alcance
+
+Curiosidade: considerada uma das cartas mais fortes no competitivo quando foi lançada.</p>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+</html>
